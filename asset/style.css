@@ -1,0 +1,983 @@
+*{
+    padding: 0%;
+    margin: 0%;  
+ }   
+
+ body{
+     background-color: #0D0D2B;
+    width: 100%;
+   overflow-x: hidden;
+ }
+ .one{
+     width: 100%;
+     flex-direction: column;
+     justify-content: center;
+     justify-items: center;
+ }
+ nav{
+     padding-top: 2rem;
+     width: 100%;
+     display: flex;
+     
+ }
+ nav ul{
+     display: flex;
+      margin-left: 3rem;  
+ }
+ 
+ #close{
+     display: none;
+ }
+ #menu{
+     display: none;
+ }
+ .r{
+     display: none;
+ }
+ 
+ .list{
+     display: flex;
+     margin-left: 21rem;
+     margin-top: .5rem;
+ }
+ .list li{
+     font-size: 19px;
+     margin-left: 4.5rem;
+ }
+ nav li{
+     color: white;
+     list-style: none;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 0.5rem;
+ }
+ nav a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ 
+ 
+ /* landing page */
+ .landing{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     margin-top: 7rem;
+     /* height: 10rem; */
+ }
+ .landing .txt{
+     width: 40%;
+     
+ }
+ .landing .first{
+     width: 65%;
+    margin-bottom: 1rem;
+ }
+ .landing .first p{
+ color: white;
+ border: 1px solid #0D0D2B;
+ background-color:  rgba(255, 255, 255, 0.1);;
+ padding: 5px 0px 5px 2px;
+ border-radius: 20px;
+ 
+ }
+ .landing .txt span{
+     border: 1px solid white;
+     color: #29295a;
+     background-color: white;
+     padding: 4px 15px;
+     border-radius: 20px;
+ }
+ .landing .second{
+     color: white;
+     font-weight: 600;
+     font-size: 42px;
+     /* Line-height:61.84px; */
+     width: 94%;
+     margin-top: -10px;
+ }
+ .landing .third{
+     color: white;
+     width: 70%;
+     margin-top: 1rem;
+     padding-bottom: 2rem;
+     /* line-height: 1.7rem; */
+ }
+ .fourth{
+     color: white;
+     display: flex;
+ }
+ .fourth .l{
+     display: flex;
+     padding: 12px 9px 12px 9px;
+     width: 25%;
+     border-radius: 35px;
+     border: 1px solid #3671E9;
+     background-color: #3671E9;
+ }
+ .fourth li{
+     list-style: none;
+     
+ }
+ .fourth a{
+     text-decoration: none;
+     color: white;
+ }
+ .fourth img{
+     width: 1.2rem;
+     margin-left: 1rem;
+ }
+ .landing .img{
+     width: 50%;
+     margin-top: -2rem;
+    
+ }
+ .landing .img img{
+     height: 30rem;
+ }
+ 
+ /* crappo */
+ .crappo{
+     width: 100%;
+     margin-top: 8rem;
+     display: flex;
+     justify-items: center;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     color: white;
+ }
+ .crappo .contxt{
+     width: 85%;
+     text-align: center;
+ }
+ .crappo .first{
+     width: 100%;
+     margin-bottom: 3rem;
+ }
+ .crappo .first img{
+     width: 90%;
+ }
+ .crappo .second{
+     display: flex;
+     width: 100%;
+     margin-top: 4rem;
+ }
+ .crappo .img{
+     width: 50%;
+    
+ }
+ .crappo .img img{
+     /* height: 30rem; */
+     width: 100%;
+    
+ }
+ .crappo .txt{
+     width: 40%;
+     text-align: start;
+     margin-left: 4rem;
+     margin-top: 7rem;
+    
+ }
+ 
+ .crappo .txt h1{
+     font-size: 32px;
+     margin-top: 2rem;
+ }
+ .crappo .txt p{
+     width: 77%;
+     letter-spacing: .3px;
+     margin-top: 2rem;
+    /* line-height: 2re; */
+ }
+ .crappo .txt a{
+     text-decoration: none;
+     color: white;
+     border: 1px solid  #3671E9;
+     background-color:  #3671E9;
+     padding: .5rem 1rem;
+     border-radius: 35px;
+     margin-top: 12rem;
+ }
+ 
+ /* two*/
+ .two{
+     width: 100%;
+     color: white;
+     /* height: 14rem; */
+   flex-direction: column;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     margin-top: 7rem;
+ 
+ }
+ .two .contxt{
+     width: 100%;
+     flex-direction: column;
+     justify-content: space-around;
+     position: relative;
+ }
+ .two .first{
+     width: 100%;
+     text-align: center;
+     margin-bottom: 5rem;
+ }
+ .two .first p{
+     width: 100%;
+     margin-top: 1rem;
+ }
+ 
+  .two .second{
+     width: 100%;
+     margin-top: 12rem;
+    display: flex;
+     justify-items: center;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: start;
+    margin-top: .5rem;
+ }
+  .two .second .content{
+      background-color: white;
+      width: 70%;
+      height: 18rem;
+      display: flex;
+      justify-items: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border: 1px solid white;
+      border-radius: 15px;
+ 
+  }
+  .two .second .content .txt{
+      width: 90%;
+      color: #0D0D2B;
+  }
+  .content form{
+      margin-bottom: 4rem;
+  }
+  .two .second .content form ::placeholder{
+ font-size: 16px;
+ color:#0D0D2B ;
+  }
+  input{
+     height: 38px;
+     line-height: 1.75rem;
+      outline-offset: 2px; 
+      background-color: transparent;
+      border: 1px solid transparent;
+     border-bottom: 1px solid #E0E0E0;
+     outline: transparent solid 2px;
+     width: 50%;
+  }
+  /* form input:nth-child(2){
+     margin-left: 1rem;
+     width: 25%;
+ } */
+ select{
+     height: 38px;
+     line-height: 1.75rem;
+      outline-offset: 2px; 
+      background-color: transparent;
+      border: 1px solid transparent;
+     border-bottom: 1px solid #E0E0E0;
+     outline: transparent solid 2px;
+     width: 25%;
+     margin-left: 1rem;
+ }
+ form button{
+     color: white;
+     border: 1px solid #3671E9;
+     background-color: #3671E9;
+     padding: .7rem 1rem;
+     border-radius: 20px;
+     margin: .4rem 0 0 1rem;
+ }
+  .two .second .content h4{
+      color: #3671E9;
+      font-size: 15px;
+  }
+  .two .second .content h1{
+     color: #0D0D2B;
+  }
+  .two .second .content h1 span{
+      color:#3671E9 ;
+      font-size: 24px;
+  }
+  .two .second .content p{
+      color:  #828282;
+  }
+ 
+  .overlapping{
+     width: 100%;
+     margin-top: -10rem;
+     background-color: whitesmoke;
+     /* height: 40rem; */
+    display: flex;
+     justify-items: center;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     text-align: start;
+     
+   
+ }
+  .overlapping .contxt{
+      width: 90%;
+      /* height: 18rem; */
+      text-align: center;
+      margin-top: 17rem;
+     
+ 
+  }
+  .overlapping .first{
+     width: 100%;
+     height: 5rem;
+    display: flex;
+     justify-items: center;
+     justify-content: center;
+     align-items: center;
+     align-content: center;  
+ }
+ .overlapping .first h1{
+     width: 50%;
+     color: #0D0D2B;
+     font-size: 28px;
+     font-weight: 900;
+ }
+ .image{
+     display: flex;
+     justify-content:space-between ;
+     padding-top: 7.5rem;
+     align-content: center;
+     padding-bottom: 2.5rem;
+   
+ }
+ .image .img{
+     border: 1px solid white;
+     background-color: white;
+     /* height: 15rem; */
+     text-align: center;
+     border-radius: 30px;
+     width: 30%;
+     padding-bottom: 2rem;
+ }
+ .image .img img{
+     margin-top: 3rem;
+     margin-bottom: 2rem;
+ }
+ .image .img span{
+     font-size: 16px;
+     color: #BDBDBD;
+ }
+ 
+ .image .img:nth-child(1){
+     background-color:  #2B076E;
+     color: white;
+ }
+ .image .img p{
+     color:#BDBDBD ;
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+ }
+ /* ul{
+     display: inline-flex;
+     height: 4px;
+ }
+ .image .img li{
+     list-style: none;
+ 
+ }
+ .image .img a{
+     text-decoration: none;
+     color: white;
+ } */
+ .image .icon{
+     color: white;
+     display: flex;
+     border: 1px solid #3671E9;
+     background-color: #3671E9;
+     padding: 8px 9px 8px 9px;
+     width: 45%;
+     border-radius: 35px;
+ }
+ .icon li{
+     list-style: none;
+     
+ }
+ .icon a{
+     text-decoration: none;
+     color: white;
+ }
+ .icon img{
+     margin-top: -2rem;
+ }
+ 
+ /* invest */
+ .invest{
+     color: white;
+     width: 100%;
+     text-align: center;
+     padding-top: 6rem;
+ }
+ .invest .first{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+     align-content: center;
+     margin-bottom: 5rem;
+ }
+ .invest h1{
+     width: 50%;
+     font-weight: 500;
+     font-size: 32px;
+ }
+ .invest .second {
+     display: flex;
+     text-align: start;
+     justify-content: center;
+     align-content: center;
+     margin-top: 2rem;
+ }
+ .invest .second .left{
+     width: 44%;
+     /* margin-top: 2rem;
+      */
+     
+ }
+ .invest  h2{
+ font-size: 29px;
+
+ 
+ }
+ .invest   p{
+     color: #BDBDBD;
+    padding-bottom: 1rem;
+ } 
+ .invest   a{
+     text-decoration: none;
+     border: 1px solid #3671E9;
+     background-color: #3671E9;
+     padding: 8px 9px 8px 9px;
+     border-radius: 35px;
+     color: white;
+     
+ }
+ .invest .second .right{
+     width: 46%;
+ }
+ .invest .third{
+     display: flex;
+     text-align: start;
+     justify-content: center;
+     align-content: center;
+     height: 35rem;
+     justify-items: center;
+     align-items: center;
+ }
+ .invest .third .left{
+     width: 45%;
+ }
+ .invest .third .left img{
+     width: 95%;
+ }
+ .invest .third .right{
+     width: 44%;
+ }
+ .invest .four{
+     display: flex;
+     text-align: start;
+     justify-content: center;
+     align-content: center;
+     height: 22rem;
+     justify-items: center;
+     align-items: center;
+ }
+ .invest .four .left{
+     width: 42%;
+ }
+ .invest .four .right{
+     width: 46%;
+ }
+ .invest .four .right img{
+     width: 100%;
+ }
+ 
+ .invest .fifth{
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+     align-content: center;
+     width: 100%;
+     height: 33rem;  
+ }
+ .invest .fifth .contxt{
+     width: 90%;
+     background-color: #3671E9;
+     height: 12rem;
+     border: 1px solid #3671E9;
+     border-radius: 30px;
+     display: inline-flex;
+     text-align: start;
+     justify-content: center;
+     align-content: center;
+     justify-items: center;
+     align-items: center;
+ }
+ .fifth .one{
+     width: 40%;
+ }
+ .fifth .two{
+     width: 50%;
+     margin-top: 1rem;
+ }
+ .fifth input{
+     height: 38px;
+     line-height: 1.75rem;
+      outline-offset: 2px; 
+      background-color: transparent;
+      border: 1px solid transparent;
+     border-bottom: 1px solid white;
+     outline: transparent solid 2px;
+     width: 70%;
+  }
+  .fifth input::placeholder{
+      color: white;
+      font-size: 17px;
+  }
+  .fifth button{
+     color: #29295a;
+     border: 1px solid white;
+     background-color: white;
+     border-radius: 23px;
+  }
+  .fifth p{
+      color: white;
+  }
+ 
+  /* footer */
+  footer{
+      display: flex;
+      height: 20rem;
+      width: 100%;
+      justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  footer .contxt{
+      width: 90%;
+      display: flex;
+      color: white;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      align-content: center;
+      font-size: 18px;
+  }
+  footer .one{
+      width: 22% ;
+      margin-top: -16rem;
+  }
+  footer .two{
+      width: 23%;
+      margin-top: -4.3rem;
+  }
+  footer  .three{
+      width: 22%;
+      margin-top: -3.9rem;
+  }
+  footer .four {
+      width: 30%;
+      margin-top: -8rem;
+  }
+  footer .four img{
+      width: 77%;
+  }
+  footer li{
+      list-style: none;
+      padding-bottom: 1rem;
+  }
+  footer li a:hover{
+      color: #3671E9;
+  }
+  footer a{
+      text-decoration: none;
+      color: white;
+  }
+ 
+  .main-f{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+      height: 6rem;
+  }
+  .main-f .f-icons{
+      margin-right: 7rem;
+  }
+  .main-f .f-icons img{
+      margin-left:1.2rem ;
+  }
+  .at{
+      margin-left: 2rem;
+  }
+
+
+  @media screen and (max-width:1000px) {
+    body{
+        overflow-x: hidden;
+    }.one{
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        justify-items: start;
+        overflow-x: hidden;
+    }
+    nav ul{
+        display: flex;
+         margin-left: 2rem; 
+         position: relative;
+         margin-top: 1rem;
+    }
+    .list{
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        width: 80%;
+        left: 0%;
+        position: absolute;
+        z-index: 1000;
+        background-color: white ;
+        padding: 2rem 2rem ;
+        display: none;
+        overflow-x: hidden;
+    }
+
+    .list li{
+        font-size: 20px;
+        margin-left: 0rem;
+       margin-top: .7rem;
+       font-weight: 600;
+    }
+    nav li{
+       flex-direction: column;
+       margin-left: 0rem;
+    }
+    nav a{
+        text-decoration: none;
+       color: #0D0D2B;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 3rem;
+        height: 1.5rem;
+        left: 16rem;
+        margin-top: .5rem;
+    }
+    #close{
+        display: block;
+         width: 2rem; 
+         position: absolute;
+         left: 16rem;
+        margin-top: .2rem; 
+        display: none;
+    }
+    .r{
+        display: block;
+    }
+
+    .landing{
+        flex-direction: column;
+        margin-top: 2rem;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        overflow-x: hidden;
+    }
+
+    .landing .txt{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+    .landing .first{
+        width: 100%;
+        text-align: center;
+    }
+    .landing .second{
+        font-size: 24px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .landing .third{
+        color: #828282;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+    .fourth{
+        width: 90%;
+        text-align: center;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .fourth .l{
+        width: 70%;
+        text-align: center;
+    }
+     
+
+    .landing .img{
+        width: 90%;
+        margin-top: 1rem;
+       text-align: center;
+    }
+    .landing .img img{
+        height: 20rem;
+        width: 90%;
+    }
+    .crappo{
+        overflow-x: hidden;
+        height: 40rem;
+    }
+    .crappo .first img{
+        width: 100%;
+    }
+    .crappo .second{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .crappo .img{
+        width: 100%;
+    }
+    .crappo .txt{
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1rem;
+       
+    }
+    .crappo .txt h1{
+        font-size: 18px;
+        overflow-x: hidden;
+    }
+    .crappo .txt p{
+        width: 100%;
+    }
+    .two .second{
+        margin-top: 1rem;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    .two .second .content{
+        width: 90%;
+        height: 18rem;
+        margin-left: 1.3rem;
+        flex-direction: column;
+    }
+    .two .second .content .txt{
+        width: 100%;
+        margin-left: .5rem;
+    }
+    .content form{
+        margin-bottom: 1rem;
+        margin-left: .8rem;
+    }
+    .two input{
+        width: 90%;
+    }
+    label{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    select{
+        width: 50%;
+    }
+    .overlapping{
+        width: 100%;
+        margin-top: -8rem;
+        overflow-x: hidden;
+        margin-left: .5rem;
+    }
+    .overlapping .contxt{
+        width: 100%;
+        text-align: center;
+        /* margin-top: 16rem; */
+    }
+    .overlapping .first h1{
+        width: 100%;
+        font-size: 24px;
+    }
+    .image{
+        flex-direction: column;
+        text-align: center;
+        width: 98%;
+    }
+    .image .img{
+        width: 99%;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    .invent{
+        overflow-x: hidden;
+        
+    }
+    .invest .first{
+       flex-direction: column;
+    }
+    .invest h1{
+        width: 100%;
+        font-size: 24px;
+        margin-top: 2rem;
+    }
+    .invest .second {
+       flex-direction: column;
+       margin-top: 0;
+    }
+    .invest .second .left{
+        width: 100%;
+    }
+    .invest  h2{
+        font-size: 26px;
+    }
+    .invest .second .right{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    .invest .second .right img{
+        width: 96%;
+    }
+    .invest .third{
+        flex-direction: column-reverse;
+        
+    }
+    .invest .third .left{
+        width: 100%;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .invest .third .left img{
+        width: 95%;
+
+    }
+    .invest .third .right{
+        width: 100%;
+        
+    }
+    .invest .four{
+        flex-direction: column;
+        height: auto;
+    }
+    .invest .four .left{
+        width: 100%;
+    }
+    .invest .four .right{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .invest .fifth{
+        height: 40rem;  
+    }
+    .invest .fifth .contxt{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    .fifth .one{
+        width: 100%;
+    }
+    .fifth .two{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .fifth input{
+        width: 80%;
+        height: 34px;
+    }
+
+    footer{
+        height: auto;
+        overflow-x: hidden;
+    }
+    footer .contxt{
+        width: 100%;
+       flex-direction: column;
+       text-align: center;
+    }
+    footer .one{
+        width: 100% ;
+        margin-top: 0rem;
+    }
+    footer .two{
+        width: 100%;
+        margin-top: 0;
+    }
+    footer  .three{
+        width: 100%;
+        margin-top: 0rem;
+    }
+    footer .four {
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .main-f{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+       height: 7rem;
+       text-align: center;
+    }
+    .main-f .f-icons{
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+    .main-f .f-icons img{
+        margin-left:1.2rem ;
+    }
+    .at{
+        margin-left: 0rem;
+    }
+}
+
+
+@media screen and (min-width:430px) {
+    .fourth .l{
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .list{
+        margin-left: 17rem;
+    }
+    #menu{
+        left: 27rem;
+    }
+    #close{
+        display: block;
+         width: 2rem; 
+         position: absolute;
+         left: 27rem;
+        margin-top: .2rem; 
+        display: none;
+    }
+}
